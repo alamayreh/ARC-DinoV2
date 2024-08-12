@@ -1,0 +1,13 @@
+out_dir: /media/hdd2/omran/arc_output
+show_sample_path: /media/hdd2/omran/arc_output
+reload_from_checkpoint: null 
+
+training_challenges: data/arc-agi_training_challenges.json
+training_solutions: data/arc-agi_training_solutions.json
+evaluation_challenges: data/arc-agi_evaluation_challenges.json
+evaluation_solutions: data/arc-agi_evaluation_solutions.json
+test_challenges: data/arc-agi_test_challenges.json
+
+batch_size: 128
+max_epochs: 10000
+detect_anomaly: true
